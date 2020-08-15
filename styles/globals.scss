@@ -50,10 +50,10 @@ p {
 .slick-prev, .slick-next{
   height: 50px;
   width: 30px;
-  color: rgba(65, 65, 65, 0.6);
+  color: rgba(65, 65, 65, 0.6) !important;
   transition: ease-in 300ms;
   &:hover{
-    color: rgba(65, 65, 65, 1);
+    color: rgba(65, 65, 65, 1) !important;
   }
 }
 
