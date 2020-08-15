@@ -1,0 +1,19 @@
+.btnLink {
+  padding: 0.5em 1.5em;
+  border: 0;
+  background-color: #404040;
+  color: #fff;
+  border-radius: 5px;
+  transition: 0.3s ease-in;
+}
+
+.btnLink:hover {
+  background-color: hsl(0, 0%, 18%);
+}
+
+.project-break{
+  background-color: transparent;
+  border-top: 3px double #c8c8c8;
+  height: 3px;
+  margin: 1rem auto;
+}

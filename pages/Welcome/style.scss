@@ -1,0 +1,63 @@
+@import "../../styles/font";
+
+.img-logo {
+  width: 50%;
+  height: auto;
+}
+
+#home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-header {
+  font-family: $libre;
+  font-size: 4rem;
+}
+
+.welcome-cursor {
+  font-size: 4rem;
+}
+
+.subheader {
+  font-family: $libre;
+  font-size: 1.5rem;
+}
+
+.subheader-cursor {
+  font-size: 1.5rem;
+}
+
+#scrolldown {
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+  color: #000;
+}
+
+.separator {
+  bottom: -4px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+@media only screen and (max-width: 640px) {
+  .welcome-header {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .welcome-header {
+    font-size: 2.5rem;
+  }
+
+  .subheader {
+    font-size: 1.1rem;
+  }
+}

@@ -1,0 +1,12 @@
+.nav-hidden {
+  top: -100px;
+}
+
+.navbar {
+  transition: 0.2s ease-in;
+  background-color: #fff;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
