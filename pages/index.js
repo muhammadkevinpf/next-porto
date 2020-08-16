@@ -15,12 +15,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="description" content="Slightly introduction from Kevin" />
+        <link rel="manifest" href="/manifest.json" />
       </Head>
       <Navbar />
       <Welcome />
       <About />
       <Projects />
-      <Contact/>
+      <Contact />
     </div>
   );
 }
