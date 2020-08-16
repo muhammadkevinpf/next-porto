@@ -14,7 +14,7 @@ import Express from "@images/logo/express.svg";
 import ProfilePhoto from "@images/profile.png";
 import CV from "../../assets/file/CV_MuhammadKevin.pdf";
 
-import "./style.scss"
+import "./style.scss";
 
 const skills = [
   {
